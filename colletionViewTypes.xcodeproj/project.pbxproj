@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92A619F52B4538AE0021D7D6 /* ZoomCentercollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A619F42B4538AE0021D7D6 /* ZoomCentercollectionView.swift */; };
 		92AE0BBF2B4447A600E71A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BBE2B4447A600E71A32 /* AppDelegate.swift */; };
 		92AE0BC12B4447A600E71A32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BC02B4447A600E71A32 /* SceneDelegate.swift */; };
 		92AE0BC32B4447A600E71A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BC22B4447A600E71A32 /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 		92AE0BD92B4447AC00E71A32 /* colletionViewTypesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BD82B4447AC00E71A32 /* colletionViewTypesTests.swift */; };
 		92AE0BE32B4447AC00E71A32 /* colletionViewTypesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BE22B4447AC00E71A32 /* colletionViewTypesUITests.swift */; };
 		92AE0BE52B4447AC00E71A32 /* colletionViewTypesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BE42B4447AC00E71A32 /* colletionViewTypesUITestsLaunchTests.swift */; };
+		92AE0BF42B4447F100E71A32 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BF22B4447F000E71A32 /* ImageCollectionViewCell.swift */; };
+		92AE0BF52B4447F100E71A32 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AE0BF32B4447F000E71A32 /* ImageCollectionViewCell.xib */; };
+		92AE0BF82B444D4900E71A32 /* CenteredCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE0BF72B444D4900E71A32 /* CenteredCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92A619F42B4538AE0021D7D6 /* ZoomCentercollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomCentercollectionView.swift; sourceTree = "<group>"; };
 		92AE0BBB2B4447A600E71A32 /* colletionViewTypes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colletionViewTypes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AE0BBE2B4447A600E71A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92AE0BC02B4447A600E71A32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		92AE0BDE2B4447AC00E71A32 /* colletionViewTypesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colletionViewTypesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AE0BE22B4447AC00E71A32 /* colletionViewTypesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colletionViewTypesUITests.swift; sourceTree = "<group>"; };
 		92AE0BE42B4447AC00E71A32 /* colletionViewTypesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colletionViewTypesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92AE0BF22B4447F000E71A32 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		92AE0BF32B4447F000E71A32 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		92AE0BF72B444D4900E71A32 /* CenteredCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		92AE0BBD2B4447A600E71A32 /* colletionViewTypes */ = {
 			isa = PBXGroup;
 			children = (
+				92AE0BF62B444D3600E71A32 /* New Group */,
+				92AE0BF12B4447E000E71A32 /* Cell */,
 				92AE0BBE2B4447A600E71A32 /* AppDelegate.swift */,
 				92AE0BC02B4447A600E71A32 /* SceneDelegate.swift */,
 				92AE0BC22B4447A600E71A32 /* ViewController.swift */,
@@ -128,6 +138,24 @@
 				92AE0BE42B4447AC00E71A32 /* colletionViewTypesUITestsLaunchTests.swift */,
 			);
 			path = colletionViewTypesUITests;
+			sourceTree = "<group>";
+		};
+		92AE0BF12B4447E000E71A32 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92AE0BF22B4447F000E71A32 /* ImageCollectionViewCell.swift */,
+				92AE0BF32B4447F000E71A32 /* ImageCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92AE0BF62B444D3600E71A32 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				92AE0BF72B444D4900E71A32 /* CenteredCollectionViewFlowLayout.swift */,
+				92A619F42B4538AE0021D7D6 /* ZoomCentercollectionView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +264,7 @@
 			files = (
 				92AE0BCE2B4447AB00E71A32 /* LaunchScreen.storyboard in Resources */,
 				92AE0BCB2B4447AB00E71A32 /* Assets.xcassets in Resources */,
+				92AE0BF52B4447F100E71A32 /* ImageCollectionViewCell.xib in Resources */,
 				92AE0BC62B4447A700E71A32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AE0BF82B444D4900E71A32 /* CenteredCollectionViewFlowLayout.swift in Sources */,
 				92AE0BC92B4447A700E71A32 /* colletionViewTypes.xcdatamodeld in Sources */,
+				92AE0BF42B4447F100E71A32 /* ImageCollectionViewCell.swift in Sources */,
 				92AE0BC32B4447A600E71A32 /* ViewController.swift in Sources */,
 				92AE0BBF2B4447A600E71A32 /* AppDelegate.swift in Sources */,
 				92AE0BC12B4447A600E71A32 /* SceneDelegate.swift in Sources */,
+				92A619F52B4538AE0021D7D6 /* ZoomCentercollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
